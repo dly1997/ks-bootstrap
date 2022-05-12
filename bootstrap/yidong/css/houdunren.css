@@ -1,0 +1,50 @@
+@media screen and (max-width:1198px) {
+    .container {
+        width: 100%!important;
+    }
+    .navbar {
+        min-width: 0px;
+    } 
+}
+@media screen and (max-width:1026px) {
+    .container {
+        width: 100%!important;
+    }
+    .cen {
+        display: none;
+    }
+    .navbar {
+        min-width: 0px;
+    }
+    .price_con ul li .text {
+      height: 297.7px;
+      width: 0%;
+      display: table-cell;
+    }
+    footer {
+        width: 100%!important;
+    }
+}
+@media (max-width: 640px){
+    .price_con ul li .text {
+    padding: 30px;}
+    .top_nav {
+        display: none;
+    }
+}
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%!important;
+    }
+    .price_con ul li .text {
+        width: 100%;
+        display: block;
+    }
+    .m1 {
+       display: none;
+    }
+    .footer .copy_z .container .right {
+        width: 100%;
+        text-align: center;
+    }
+}
